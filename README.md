@@ -1,9 +1,6 @@
-
-Certainly! Below is a sample text for a README file for your portfolio website. This README provides an overview of the project, instructions on how to set it up, and other relevant information.
-
 Portfolio Website
 Introduction
-Welcome to the repository for our portfolio website. This website showcases the professional work and skills of [Your Name] and [Partner's Name]. Designed to be responsive and user-friendly, it includes sections about our background, featured projects, skills, and a contact page.
+Welcome to the repository for our portfolio website. This website showcases the professional work and skills of Usjid Nisar and Shahbano Waqar. Designed to be responsive and user-friendly, it includes sections about our background, featured projects, skills, and a contact page.
 
 Features
 Responsive Design: Ensures the website is viewable on all devices.
