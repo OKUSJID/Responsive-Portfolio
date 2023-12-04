@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Usjid and Shahbano's Portfolio</title>
+    <link rel="stylesheet" href="path/to/bootstrap.css">
 </head>
-<body>
-    
+<body style="margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f8f9fa; color: #212529;">
+
+    <!-- Navigation Bar -->
+    <nav style="background-color: #343a40; padding: 1rem 1rem; display: flex; justify-content: space-between; align-items: center;">
+        <a href="#" style="color: #fff; font-size: 1.5rem; text-decoration: none; font-weight: bold;">Portfolio</a>
+        <div>
+            <a href="about.html" style="color: #9aa0a6; margin-right: 1rem; text-decoration: none;">About</a>
+            <a href="portfolio.html" style="color: #9aa0a6; margin-right: 1rem; text-decoration: none;">Portfolio</a>
+            <a href="contact.html" style="color: #9aa0a6; text-decoration: none;">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section style="text-align: center; padding: 4rem 0; background: #ffffff; margin-top: 1rem; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+        <h1 style="font-size: 2.5rem; color: #212529; margin-bottom: 0.5rem;">Welcome to Our Portfolio</h1>
+        <p style="font-size: 1.2rem; margin-top: 0; margin-bottom: 1rem;">Discover our projects, skills, and professional journey.</p>
+        <a href="portfolio.html" style="background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">View Our Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section style="padding: 2rem; text-align: center;">
+        <h2 style="color: #212529; margin-bottom: 1rem;">About Us</h2>
+        <p>We are passionate developers with a flair for creating innovative web solutions. Our journey includes working on diverse projects ranging from web applications to interactive websites.</p>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section style="padding: 2rem; background-color: #e9ecef; text-align: center;">
+        <h2 style="color: #212529; margin-bottom: 1rem;">Featured Projects</h2>
+        <!-- Add project cards or descriptions here -->
+        <div style="display: flex; justify-content: center; gap: 1rem;">
+            <!-- Project 1 -->
+            <div style="width: 30%; background-color: white; padding: 1rem; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+                <h3>Linux-Shell</h3>
+                <p>This C++ program is a custom shell that mimics basic functionalities of a UNIX shell. It continuously prompts the user for commands, supporting execution with pipes (`|`) for command chaining and redirections (`<`, `>`). The program parses user input into commands and arguments, creates multiple processes using `fork()`, and manages inter-process communication with pipes. It uses `execvp()` for executing commands and `waitpid()` to synchronize the parent process with its children. This project serves as a foundational implementation of a shell, demonstrating core concepts like process creation, command parsing, input/output redirection, and process communication in a UNIX-like environment.</p>
+            </div>
+            <!-- Project 2 -->
+            <div style="width: 30%; background-color: white; padding: 1rem; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+                <h3>8 Queen Problem</h3>
+                <p>This Python code implements a genetic algorithm to solve the classic "N-Queens" problem. The N-Queens problem involves placing N chess queens on an N×N chessboard in such a way that no two queens threaten each other. The goal is to find a configuration where the maximum number of queens are non-attacking.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section style="padding: 2rem; text-align: center;">
+        <h2 style="color: #212529; margin-bottom: 1rem;">Our Skills</h2>
+        <p>HTML, CSS, JavaScript, React, Node.js, Python...</p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #343a40; color: #f8f9fa; text-align: center; padding: 1rem 0; margin-top: 2rem;">
+        <p style="margin: 0;">&copy; 2023 Usjid and Shahbano</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- <script src="path/to/jquery.js"></script>
+    <script src="path/to/popper.js"></script> -->
+    <script src="path/to/bootstrap.js"></script>
 </body>
 </html>
